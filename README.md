@@ -32,7 +32,7 @@ marked.setOptions({
   breaks: false,
   pedantic: false,
   sanitize: false,
-  sanitizationWhiteListedTags: [],
+  whiteList: [],
   smartLists: true,
   smartypants: false
 });
@@ -253,7 +253,7 @@ Default: `false`
 
 Sanitize the output. Ignore any HTML that has been input.
 
-### sanitizationWhiteListedTags
+### whiteList
 
  Type: `Array`
  Default: `[]`
