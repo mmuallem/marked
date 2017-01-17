@@ -32,7 +32,6 @@ marked.setOptions({
   breaks: false,
   pedantic: false,
   sanitize: false,
-  whiteList: [],
   smartLists: true,
   smartypants: false
 });
@@ -252,17 +251,6 @@ Type: `boolean`
 Default: `false`
 
 Sanitize the output. Ignore any HTML that has been input.
-
-### whiteList
-
- Type: `Array`
- Default: `[]`
-
- Use in conjunction with `sanitize: true`. A whitelist of HTML tags to
- allow through the sanitizer without encoding.
- Example: `['strong', 'span', 'div']`
-
- credits to @ryan-codingintrigue
 
 
 ### smartLists
