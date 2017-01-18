@@ -59,7 +59,7 @@ console.log(marked('I am using __markdown__.'));
 </html>
 ```
 
-## marked(markdownString [,options] [,callback])
+## marked(markdownString [,options] [,renderMode] [,callback])
 
 ### markdownString
 
@@ -73,6 +73,12 @@ Type: `object`
 
 Hash of options. Can also be set using the `marked.setOptions` method as seen
 above.
+
+### renderMode
+
+Type: `string`
+
+Sets the mode of the renderer, the default being 'live' for production.
 
 ### callback
 
